@@ -1,0 +1,79 @@
+NANOOOOOO nu mai uita! NANO Creezi un fisier cu comanda touch numefisier.txt apoi
+				 nano numefisier.txt pentru a intra in fisierul creat
+				 
+				            WANNA MOUNT A DRIVE 
+				            
+		        sudo mkdir /mnt/foldername           - asta e o practica standard 
+                                                     - mnt mount point
+                                                
+                sudo  fdisk -l                        - afiseaza o lista cu drivers               
+                sudo mount /dev/sda5   /mnt/foldername - THIS WILL MOUNT THE HARDDRIVE
+		        cd /mnt/drive			            	-te duci in folderul corect
+		        ls -l                                    -va afisa ce este pe drive
+                sudo umount /dev/sda5 /mnt/folder       - unmount the harddrive   
+                  
+                                     
+				        WANNA MOUNT A CDROM drive
+		sudo mkdir /mnt/cdrom
+		sudo mount /dev/cdrom /mnt/cdrom
+		cd /mnt/cdrom
+
+
+				             COPY  /   MOVE
+		mv file1 fisiernou               - RENAME a file or folder
+		mv /file1  /home/user/Desktop    - move file from folder1 on Desktop
+		
+		cp file file.bak  - making a back up file
+		
+		
+		
+		rm -r    - face stergeri recursive. se foloseste pentru a sterge foldere 
+
+      		mkdir folder /home/user/Desktop
+		    				
+     		ls - l    ls - m(it will show everything into a block)
+		mv 
+
+					                TASKMANAGER
+
+			      top  - un fel de task manager
+			          poti vedea ce programe folosesti si configuratia PC-ului
+		          k  - ucizi un proces
+
+       				     INSTALARE/DEZINSTALARE
+				sudo apt-get install  numeprogram  
+				sudo apt-get remove   numeprogram
+				sudo apt-get update   numeprogram
+						      drivers are in the REPOSITORY		
+							   
+					  START SERVICES
+				sudo /etc/init.d/numeprogram start     
+				sudo /etc/init.d/numeprogram stop
+				sudo /etc/init.d/numeprogram stop
+
+   						 CAUTARI		
+						
+	        sudo find -iname home	- iname face cautarea sa fie case insensitive
+					
+	    	sudo fin -iname HOME*.* - cand nu stii ce e dupa home si ce fel de extensie este fisierul
+
+		    CATFISH CATFISH CATFISH- e o aplicatie buna de gasit chesstii
+			                     sudo apt-get install catfish
+	   
+
+
+				
+
+				
+	man ping  - manual pentru comanda ping ....google is faster
+               q  - quit the manual page
+
+
+@@@@@@@@   tasksel - pachete necesare daca vrei sa instalezi servere (ex. email)
+		      pentru site-uri 		
+
+				  
+						
+
+
+
