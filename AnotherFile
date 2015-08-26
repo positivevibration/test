@@ -1,4 +1,7 @@
 this is just another file that i have to commit
+<<<<<<< HEAD
 
 
 Ia sa vedem aceasta linie cu ajutorul comenzii diff
+=======
+>>>>>>> 9af1617836a281a6379e8833bf74b91f0dd48f20
